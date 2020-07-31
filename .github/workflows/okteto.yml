@@ -1,7 +1,7 @@
 name: okteto
 on:
   #schedule:
-    #- cron: 10 22 * * *
+  - cron: 1 1 * * *
   watch:
     types: started      
 jobs:
@@ -33,5 +33,5 @@ jobs:
         #kubectl replace --force -f /home/runner/v2tls.yml    
         #kubectl replace 强制覆盖项目
         cd /home/runner/work/okteto-reboot/okteto-reboot
-        ls
+        echo y | okteto push
         
