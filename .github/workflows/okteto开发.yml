@@ -29,5 +29,5 @@ jobs:
         cd /home/runner/work/okteto-reboot/okteto-reboot
         ls
         # push y
-        echo y | okteto push
+        echo y | okteto push 
         
