@@ -1,6 +1,6 @@
 name: okteto
 on:
- chedule:
+ schedule:
     - cron: '0 1 * * *'
   watch:
     types: started      
