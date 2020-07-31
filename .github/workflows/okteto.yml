@@ -33,5 +33,5 @@ jobs:
         #kubectl replace --force -f /home/runner/v2tls.yml    
         #kubectl replace 强制覆盖项目
         cd /home/runner/work/okteto-reboot/okteto-reboot
-        echo y | okteto push
+        ls
         
